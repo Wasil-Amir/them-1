@@ -1,0 +1,708 @@
+*{
+    margin: 0%;
+    padding: 0px;
+}
+
+.cover{
+    height: 100vh;
+    width: 98.7vw;
+    background-image: url("hero-bg.jpg");
+    background-size: 100% 100%;
+    position: relative;
+    margin-top: 4%;
+    
+}
+
+.topstyle{
+    height: 14vh;
+    width: 98.7vw;
+    /* background-image:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.9)); */
+    background: black;
+    position: absolute;
+    top:-10%;
+    cursor: inherit;
+}
+
+.logo{
+    height:4vh;
+    width: 7vw;
+    background-image:url("logo.png") ;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 40%;
+    left: 6%;
+    cursor: pointer;
+}
+
+.options{
+    height: 6vh;
+    width: 50vw;
+    /* background: aqua; */
+    /* border: 2px solid white; */
+    cursor: pointer;
+    position: relative;
+    left: 46%;
+    top:40%;
+}
+
+.a1{
+    height: 5vh;
+    width: 7vw;
+    /* background: salmon; */
+    display: inline-block;
+    box-sizing: border-box;
+    /* border: 2px solid darkblue; */
+    margin-left: 4%;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5vw;
+    padding: 2px;
+    text-align: center;
+}
+
+.a2{
+    color: palevioletred;
+}
+
+.a3:hover{
+    color: palevioletred;
+}
+
+.a4:hover{
+    color: palevioletred;
+}
+
+.a5:hover{
+    color: palevioletred;
+}
+
+.a6:hover{
+    color: palevioletred;
+}
+
+.text{
+    height:50vh;
+    width: 50vw;
+    /* background: darkorange; */
+    /* border:2px solid slateblue; */
+    position: absolute;
+    top: 350%;
+}
+
+.b1{
+    height: 10vh;
+    width: 20vw;
+    /* background: snow; */
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.b2{
+    left: 15%;
+    position: absolute;
+    font-size: 1.7vw;
+    height: 5vh;
+    width: 15vw;
+    color:palevioletred;
+}
+
+.b3{
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    font-size: 5vw;
+    width: 30vw;
+    color: white;
+
+}
+
+.b4{
+    position:absolute;
+    top:50%;
+    color: white;
+    left: 15%;
+    top: 40%;
+    font-size: 1.4vw;
+    width: 40vw;
+
+}
+
+.b5{
+    position: absolute ;
+    top: 60%;
+    left: 35%;
+    width: 18%;
+    height: 10%;
+    font-size: 1.4vw;
+    background: palevioletred;
+    outline: none;
+    border-radius: 20px;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+/* second page */
+
+.about{
+    height: 85vh;
+    width: 98.7vw;
+    background:black;
+    position: relative;
+}
+
+.about-us{
+    height: 60vh;
+    width: 40vw;
+    background-image: url("about-us.jpg");
+    background-size: 100% 100%;
+    position: absolute;
+    left: 10%;
+    top: 14%;
+}
+
+.about-us:hover{
+         background-image:linear-gradient(rgba(0,.6,0,0),rgba(0,0,0,.9)),url("about-us.jpg"); 
+         transform: scale(1.1);
+         transition: 2s;
+}
+
+.explination{
+    height:70vh;
+    width: 40vw;
+    /* background: darkorange; */
+    /* border:2px solid slateblue; */
+    position: absolute;
+    left: 55%;
+    top: 16%;
+}
+
+.summery{
+    height: 10vh;
+    width: 20vw;
+    /* background: snow; */
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    left: 20%;
+    /* border: 4px solid red; */
+}
+
+.c1{
+    height: 5vh;
+    width: 10vw;
+    text-align: center;
+    font-size: 1.7vw;
+    font-family: 'Times New Roman', Times, serif;
+    color: palevioletred;
+    left: -1%;
+}
+
+.c2{
+    top: 15%;
+    left: -20%;
+    font-size: 4vw;
+    color: white;
+    font-family: l;
+}
+
+.c3{
+    top: 20%;
+    left: 6%;
+    width: 30vw;
+    color: silver;
+}
+
+.c4{
+    top: 20%;
+    width: 30vw;
+    left: 6%;
+    color:silver;
+}
+
+.c6{
+    height: 7vh;
+    width: 10vw;
+    top:25%;
+    left: 27%;
+    border-radius: 20px ;
+    background: palevioletred;
+    color:white;
+    font-size: 1.3vw;
+}
+
+/* third page */
+
+.services{
+    height: 80vh;
+    width: 98.7vw;
+    background: black;
+    position: relative;
+}
+
+.our-services{
+    height: 5vh;
+    width: 10vw;
+    /* background:white; */
+    color: palevioletred;
+    font-size: 1.2vw;
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 43%;
+
+}
+
+.best-services{
+    height: 10vh;
+    width: 55vw;
+    /* background: yellow; */
+    color: white;
+    font-size: 4vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    position: absolute;
+    left: 25%;
+    top: 5%;
+
+}
+
+.service-1{
+    height: 40vh;
+    width: 23vw;
+    /* background: yellow; */
+    position: relative;
+    top: 24%;
+    left: 7%;
+    border: 2px solid silver;
+}
+
+.service-1:hover{
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+
+.s{
+    height: 10vh;
+    width: 20vw;
+    /* background: yellowgreen; */
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+}
+
+.s1{
+    position: absolute;
+    width: 17%;
+    left: 39%;
+    top: 10%;
+}
+
+.s2{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    font-size: 2.2vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+.s3{
+    position: absolute;
+    top: 55%;
+    color: white;
+    text-align: center;
+    font-size: 1.4vw;
+    left: 5%;
+}
+
+/* next */
+
+.service-2{
+    height: 40vh;
+    width: 23vw;
+    /* background: yellow; */
+    position: relative;
+    top: -26%;
+    left: 37%;
+    border: 2px solid silver;
+    cursor: pointer;
+}
+
+.service-2:hover{
+    transform: scale(1.2);
+    transition: 2s;
+    cursor: inherit;
+}
+
+
+.service-2-child{
+    height: 10vh;
+    width: 20vw;
+    /* background: yellowgreen; */
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+}
+
+.child-1{
+    position: absolute;
+    width: 17%;
+    left: 40%;
+    top: 10%;
+    cursor: pointer;
+}
+
+.child-2{
+    position: absolute;
+    top: 35%;
+    left: 32%;
+    font-size: 2.2vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+.child-3{
+    position: absolute;
+    top: 55%;
+    color: white;
+    text-align: center;
+    font-size: 1.4vw;
+    left: 5%;
+    cursor: pointer;
+}
+
+/*  */
+
+.service-3{
+    height: 40vh;
+    width: 23vw;
+    position: relative;
+    top: -76%;
+    left: 65%;
+    border: 2px solid silver;
+    cursor: pointer;
+}
+
+.service-3:hover{
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+.service-3-text{
+    height: 10vh;
+    width: 20vw;
+    /* background: yellowgreen; */
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+}
+
+.text-1{
+    position: absolute;
+    width: 17%;
+    left: 40%;
+    top: 10%;
+    cursor: pointer;
+}
+
+.text-2{
+    position: absolute;
+    top: 35%;
+    left: 32%;
+    font-size: 2.2vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+.text-3{
+    position: absolute;
+    top: 55%;
+    color: white;
+    text-align: center;
+    font-size: 1.4vw;
+    left: 5%;
+    cursor: pointer;
+}
+
+/* foueth page */
+
+.portfolio{
+    height: 60vh;
+    width:98.7vw;
+    background: dimgray;
+    position: relative;
+    cursor: pointer;
+}
+
+.portfolio-text{
+    height: 7vh;
+    width: 15vw;
+    /* background: dodgerblue; */
+    color: palevioletred;
+    font-size: 2vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 40%;
+    text-align: center;
+    top: 10%;
+    cursor: pointer;
+}
+
+.portfolio-text-1{
+    height: 10vh;
+    width: 50vw;
+    position: absolute;
+    left: 24%;
+    top: 30%;
+    font-size: 4vw;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Nyarrow Bold', sans-serif;
+    cursor: pointer;
+}
+
+/* fifith page */
+
+.portfolio-background{
+    height:100vh ;
+    width: 98.7;
+    background: black;
+    position: relative;
+    cursor: pointer;
+}
+
+.portfolio-img{
+    height: 100vh;
+    width: 50vw;
+    background-image: url("portfolio-1.jpg");
+    background-size: 100% 100%;
+    position: absolute;
+    top: -20%;
+    left: 5%;
+    cursor: pointer;
+
+}
+
+.portfolio-img:hover{
+    background-image:linear-gradient(rgba(0,.6,0,0),rgba(0,0,0,.9)),url("portfolio-1.jpg"); 
+}
+
+.portfolio-img-1{
+    height: 50vh;
+    width: 40vw;
+    background-image: url("portfolio-2.jpg");
+    background-size: 100% 100%;
+    position: absolute;
+    top: -20%;
+    left: 55.5%;
+    cursor: pointer;
+
+
+}
+
+.portfolio-img-2{
+    height: 50vh;
+    width: 20vw;
+    background-image: url("portfolio-3.jpg");
+    background-size: 100% 100%;
+    position: absolute;
+    top: 30%;
+    left: 55.5%;
+    cursor: pointer;
+}
+
+.portfolio-img-2:hover{
+ background-image: url("member-4.jpg");
+ background-size: 100% 100%; 
+ transition: 1.2s;  
+}
+
+
+
+.portfolio-img-3{
+    height: 50vh;
+    width: 20vw;
+    background-image: url("portfolio-4.jpg");
+    background-size: 100% 100%;
+    position: absolute;
+    top: 30%;
+    left: 75.5%;
+    cursor: pointer;
+}
+
+.portfolio-img-3:hover{
+    background-image: url("blog-3.jpg");
+    background-size: 100% 100%;
+    transition: 1.3s;
+}
+
+/* sixth page */
+
+.numbers{
+    height: 100vh;
+    width: 98.7vw;
+    background: black;
+    position: relative;
+}
+
+.number-text{
+    height: 10vh;
+    width: 20vw;
+    /* background: blue; */
+    font-size: 2vw;
+    color: palevioletred;
+    position: absolute;
+    left: 5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.number-text-1{
+    height:20vh;
+    width: 30vw;
+    /* background: yellow; */
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-size: 3vw;
+    color: white;
+
+}
+
+.number-text-2{
+    height: 5vh;
+    width: 10vw;
+    background: palevioletred;
+    position: absolute;
+    top: 30%;
+    left: 7%;
+    outline: none;
+    border-radius: 20px;
+    color: white;
+}
+
+.number-text-2:hover{
+    border-radius: 10px;
+    color: palevioletred;
+    background: white;
+}
+
+/* next text */
+
+.counting{
+    height: 40vh;
+    width: 20vw;
+    /* background: yellow; */
+    position: relative;
+    top: -5%;
+    left: 45%;
+}
+
+.counting-1{
+    height: 5vh;
+    width: 10vw;
+    /* background: yellowgreen; */
+    box-sizing: border-box;
+    display:inline-block;
+    position: absolute;
+    top: 20%;
+
+}
+
+.g2{
+    position: absolute;
+    left: 20%;
+    top: 70%;
+    height: 10vh;
+    font-size: 4vw;
+    text-align: center;
+    color: palevioletred;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.g3{
+    position: absolute;
+    left: 20%;
+    /* top: 70%; */
+    height: 10vh;
+    font-size: 4vw;
+    text-align: center;
+    color: palevioletred;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+/*  */
+
+
+.counting-text{
+    height: 50vh;
+    width: 40vw;
+    background: yellow;
+    position: relative;
+    top: -40%;
+    left: 60%;
+}
+
+
+.counting-text-1{
+    height: 5vh;
+    width: 10vw;
+    background: yellowgreen;
+    box-sizing: border-box;
+    display:inline-block;
+    position: absolute;
+    
+
+}
+
+.j1{
+    position: absolute;
+    /* text-align: center; */
+    font-size: 2vw;
+    width: 20vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+
+.j2{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    border: 5px solid black;
+    width: 20vw;
+}
+
+.j3{
+    position: absolute;
+    top: 50%;
+}
+
+.j4{
+    position: absolute;
+    top: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
